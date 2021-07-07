@@ -1,0 +1,12 @@
+:root {
+    --blue: hsl(205,100%,35%);
+    --gray: hsl(202, 20%, 92%);
+    --dark-gray: hsl(80, 1%, 54%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
