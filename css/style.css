@@ -177,7 +177,7 @@ img:hover {
 }
 
 /*Login Button in Footer Menu*/
-.login {
+.cafe24publisher-login {
     margin-left: 20px;
     background-color: var(--white);
     color: var(--blue);
@@ -185,6 +185,42 @@ img:hover {
     border-radius: 20px;
 }
 
+/*media Query*/
+@media (max-width: 800px) {
+
+    /*Main Content*/
+    .cafe24publisher-button-container {
+        flex-direction: column;
+    }
+
+    .cafe24publisher-btn2 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    /*Footer*/
+    .cafe24publisher-footer-container {
+        padding: 0em 1em;
+    }
+
+    .cafe24publisher-footer-container {
+        flex-direction: column;
+    }
+
+    .cafe24publisher-menu ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cafe24publisher-menu li {
+        padding: 10px 0px;
+    }
+
+    .cafe24publisher-login {
+        margin: 0;
+        margin-top: 10px;
+    }
+}
 
 
 
